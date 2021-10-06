@@ -1,0 +1,32 @@
+body {
+  width: 100%;
+}
+
+.container-fluid {
+  margin-top: -8px;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(122, 116, 116);
+}
+
+.navbar-nav {
+  margin-left: 1000px;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  margin-left: 100px;
+}
+
+.works {
+  margin: 200px 120px 0 120px;
+}
+
+.presentation {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.text {
+  font-size: 30px;
+}
