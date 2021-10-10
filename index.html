@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Boostrap Portfolio</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">My logo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#portfolio">My Portfolio</a>
+                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#">Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="main-section">
+        <div class="presentation">
+            <h1>Annah and Roland</h1>
+            <p class="text">Below are some of our projects!</p>
+        </div>
+        <section id="portfolio" class="works">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="../images/work.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text 
+                          below as a natural lead-in to additional content. This content is a little bit longer.
+                        </p>
+                        <span class="badge rounded-pill bg-primary">HTML</span>
+                        <span class="badge rounded-pill bg-success">CSS</span>
+                        <span class="badge rounded-pill bg-warning text-dark">JavaScript</span>
+                        <span class="badge rounded-pill bg-info text-dark">Ruby</span><br><br>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                            See Project
+                          </button>
+                    </div>
+                  </div>
+                </div>
+                                <!-- Scrollable modal -->
+                <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel1" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="staticBackdropLabel1">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi beatae consequatur, 
+                             ut repellendus, expedita accusantium perspiciatis ratione, earum saepe inventore excepturi 
+                             officia tempore doloribus aliquam dolorum minus? Quam, aliquid optio!
+                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi beatae consequatur, 
+                             ut repellendus, expedita accusantium perspiciatis ratione, earum saepe inventore excepturi 
+                             officia tempore doloribus aliquam dolorum minus? Quam, aliquid optio!
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="../images/work.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural 
+                          lead-in to additional content. This content is a little bit longer.</p>
+                          <span class="badge rounded-pill bg-light text-dark">Nodejs</span>
+                          <span class="badge rounded-pill bg-warning text-dark">JavaScript</span>
+                          <span class="badge rounded-pill bg-info text-dark">Ruby</span>
+                          <span class="badge rounded-pill bg-dark">Ruby on Rails</span>
+                          <br><br>
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                            See Project
+                          </button>
+                    </div>
+                  </div>
+                </div>
+                                <!-- Scrollable modal -->
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="staticBackdropLabel2">Modal title</h5>
+                                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi beatae consequatur, 
+                                             ut repellendus, expedita accusantium perspiciatis ratione, earum saepe inventore excepturi 
+                                             officia tempore doloribus aliquam dolorum minus? Quam, aliquid optio!
+                                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi beatae consequatur, 
+                                             ut repellendus, expedita accusantium perspiciatis ratione, earum saepe inventore excepturi 
+                                             officia tempore doloribus aliquam dolorum minus? Quam, aliquid optio!
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                              <button type="button" class="btn btn-primary">Understood</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="../images/work.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural 
+                          lead-in to additional content.</p>
+                          <span class="badge rounded-pill bg-warning text-dark">JavaScript</span>
+                          <span class="badge rounded-pill bg-info text-dark">Ruby</span>
+                          <span class="badge rounded-pill bg-light text-dark">HTML</span>
+                          <span class="badge rounded-pill bg-dark">Ruby on Rails</span>
+                          <br><br>
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+                            See Project
+                          </button>
+                    </div>
+                  </div>
+            </div>
+                <!-- Scrollable modal -->
+                <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel3" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel3">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi beatae consequatur, 
+                                ut repellendus, expedita accusantium perspiciatis ratione, earum saepe inventore excepturi 
+                                officia tempore doloribus aliquam dolorum minus? Quam, aliquid optio!
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi beatae consequatur, 
+                                ut repellendus, expedita accusantium perspiciatis ratione, earum saepe inventore excepturi 
+                                officia tempore doloribus aliquam dolorum minus? Quam, aliquid optio!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="../images/work.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural 
+                          lead-in to additional content. This content is a little bit longer.</p>
+                          <span class="badge rounded-pill bg-warning text-dark">JavaScript</span>
+                        <span class="badge rounded-pill bg-info text-dark">Ruby</span>
+                        <span class="badge rounded-pill bg-success">Bootstrap</span>
+                        <span class="badge rounded-pill bg-primary">HTML</span>
+                        <span class="badge rounded-pill bg-success">CSS</span>
+                        <br><br>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+                            See Project
+                          </button>
+                    </div>
+                  </div>
+                </div>
+                    <!-- Scrollable modal -->
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel4" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel4">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi beatae consequatur, 
+                                  ut repellendus, expedita accusantium perspiciatis ratione, earum saepe inventore excepturi 
+                                  officia tempore doloribus aliquam dolorum minus? Quam, aliquid optio!
+                                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi beatae consequatur, 
+                                  ut repellendus, expedita accusantium perspiciatis ratione, earum saepe inventore excepturi 
+                                  officia tempore doloribus aliquam dolorum minus? Quam, aliquid optio!
+                                </div>
+
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+        </section>
+        <!-- Form -->
+    <section id="form" class="container position-relative mt-5 pt-5"></section>
+      <div class="row">
+        <div class="col-sm-3">
+        </div>
+           </div>
+        <div class="col-sm-5 m-5 p-5">
+        </div>
+          <h2 class="m-5 fw-bold "> Get Started</h2>
+          <p class="m-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+             exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
+          
+        <form  class="mb-3" action="https://formspree.io/f/xoqybvkp">
+          <div class="row m-5">
+            <div class="col ">
+              <label for="name" class="form-label">Name:</label>
+              <input type="text" class="form-control" id="name" placeholder="Name" name="name" required>
+            </div>
+            <div class="col ">
+              <label for="inputEmail4" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="inputEmail4" required>
+            </div>
+            <div class="p-3 my-2">
+            <label for="Textarea" class="form-label ">Message</label>
+            <textarea class="form-control" id="Textarea" rows="10" maxlength="500" placeholder="Enter your message here"  required></textarea>
+          </div>
+        <button class="btn btn-primary my-5" type="button">Get in touch</button>
+      </div>
+        </form>
+    </main>
+
+</body>
+</html>
